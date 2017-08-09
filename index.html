@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">  <!-- Incluimos el css Bootstrap de Twitter para esta página -->
     <link rel="stylesheet" href="css/styles.css">         <!-- Incluimos el css perzonalizado por nosotros para esta página -->
     <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet"> <!-- Añadimos una fuente de google -->
+    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'> <!-- Añadimos una fuente de google -->
   </head>
   <body>
     <header>
@@ -26,10 +27,41 @@
             <span class="icon-bar"></span>
           </button>
 
+          
+
+
+
         </div>
       </div>
     </nav>
     </header>
+
+    <!-- Esto es el menú que se desplegará tras pulsar el botón de arriba. Como podemos observar en el botón hay una propiedad: data-target, que apunta a collapsable-nav -->
+          <div id="collapsable-nav" class="collapse navbar-collapse">
+           <ul id="nav-list" class="nav navbar-nav navbar-right hidden-lg hidden-md hidden-sm"> <!-- Con las clases hidden le decimos que para esos tamaños oculte en la barra de navegación
+           la lista de navegación que incluye los elementos que están debajo de esta línea-->
+            <li>
+              <a href="#">
+                <br class="hidden-xs"> Pollo </a>
+            </li>
+            <li>
+              <a href="#">
+                <br class="hidden-xs"> Ternera</a>
+            </li>
+            <li>
+              <a href="#">
+                <br class="hidden-xs"> Sushi</a>
+            </li>
+            <li id="phone" class="hidden-xs">
+              <a href="tel:+34 666161702">
+                <span>+34 666161702</span></a><div>* Contacto</div>
+            </li>
+          </ul><!-- #nav-list -->
+        </div><!-- .collapse .navbar-collapse -->
+    <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
   </body>
    <footer>
       <hr>
