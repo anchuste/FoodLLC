@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- That means this page will be supported by EDGE browser-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Food LLC</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">  <!-- Incluimos el css de Twitter para esta página -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">  <!-- Incluimos el css Bootstrap de Twitter para esta página -->
     <link rel="stylesheet" href="css/styles.css">         <!-- Incluimos el css perzonalizado por nosotros para esta página -->
     <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet"> <!-- Añadimos una fuente de google -->
   </head>
@@ -17,17 +17,25 @@
           <div class="navbar-brand">
             <a href="index.html"><h1>Food, LLC</h1></a>
           </div>
+
+          <!-- Botón que aparece cuando hacemos la página pequeña (dispositivos móviles) y nos permite desplegar un menú varias opciones -->
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
         </div>
       </div>
     </nav>
     </header>
-    <h1 style="color: green; font-size: 60px; text-align: center;">HTML is Structure Only</h1>
-    <footer>
+  </body>
+   <footer>
       <hr>
       <p style="text-align: center;" 
          onclick="alert('EMAILING US IS USELESS');">
          Alberto Anchuste
       </p>
     </footer>
-  </body>
 </html>
