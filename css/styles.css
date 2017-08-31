@@ -12,9 +12,6 @@ body {
   border: 0;
 }
 
-.navbar-brand {
-  padding-top: 25px;
-}
 
 .navbar-brand h1 { /* Nombre del restaurante */
   font-family: 'Oswald', sans-serif;
@@ -79,11 +76,13 @@ body {
 {
   font-family: 'Oswald', sans-serif;
   font-size: 1.8em;
-  color: #000000; /* Color negro */
-  width: 100%;
+  color: #ffffff; /* Color negro */
+  /*width: 100%;*/
   text-align: center;
-  background-color: #FFF8DC;
+  background-color: #008080;
   margin-bottom: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
 }
 
 /* Esta clase define una fila que ocupa el 100 % de la ventana excepto por los márgenes, por eso no hay que definir el width*/
@@ -98,4 +97,22 @@ body {
   margin-bottom: 20px;
 } 
   
-  
+.texto
+{
+  font-size: 0.9em;
+  color: #000000; /* Color negro */
+}
+  /********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+  .texto
+{
+  font-size: 0.7em;
+  color: #000000; /* Color negro */
+}
+
+
+.navbar-brand {
+  padding-top: 25px;
+}
+
+}
